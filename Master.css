@@ -1,0 +1,113 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 100px;
+}
+h3 {
+  padding: 0;
+  margin: 0;
+}
+h2 {
+  font-size: 200%;
+  font-weight: 600;
+  color: #E6E4CE;
+}
+p {
+  width: 50%;
+  font-size:140%;
+  color: #E6E4CE;
+  font-weight: 500;
+}
+hr {
+border-style: solid;
+border-color: red;
+margin: 10px 30% 10px 30%;
+}
+a {
+  text-decoration: none;
+  color: #9F84BD;
+}
+a:visited {
+  color: #C09BD8;
+  text-decoration: none;
+}
+a:hover {
+  color:#EBC3DB;
+}
+/*********************** Confusing Table Classes???? ***********************/
+table.blocktwo, th.blocktwo, td.blocktwo {
+  border: 4px solid #ecc6dc;
+  border-collapse: collapse;
+  color: #E6E4CE;
+  background-color: #E6B3D1;
+}
+table.blockthree, th.blockthree, td.blockthree {
+  border: 4px solid #d1b3ff;
+  border-collapse: collapse;
+  color: #E6E4CE;
+  background-color: #C09BD8;
+}
+/*** Serriously i couldn't find a better way to make these tables ***/
+table {
+  width: 100%;
+  font-size:140%;
+}
+th {
+  font-weight: 600;
+  padding: 16px;
+}
+td {
+  padding: 8px;
+}
+/****************** Section and Section contrast classes ******************/
+.titleblock {
+  display: block;
+  background-color: #9F84BD;
+  margin: 0;
+  border: 0;
+  padding: 25% 0 25% 0;
+  color: white;
+}
+.twoblock {
+  background-color: #C09BD8;
+  padding: 2%;
+}
+.twoblockcomp {
+  border-color: #d1b3ff;
+}
+.threeblock {
+  background-color: #E6B3D1;
+  padding: 2%;
+}
+.threeblockcomp {
+  border-color: #ecc6dc;
+}
+.websiteblock {
+  background-color:#50396A;
+  padding: 2%;
+}
+.websiteblockcomp {
+  border-color: #644785;
+}
+/****************************** img classes *******************************/
+.technoquote {
+  display: block;
+  width: 75%;
+}
+.flag {
+  display:inline-block;
+  width: 25%;
+  height: 180px;
+}
+.schoolimg {
+  display: block;
+  width: 75%;
+}
+.careerimg {
+  display: block;
+  width: 80%;
+}
